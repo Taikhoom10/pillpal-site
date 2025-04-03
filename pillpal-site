@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PillPal - AI-Powered Medication Management</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .hero {
+            background: linear-gradient(135deg, #2a2a2a, #4CAF50);
+            color: white;
+            padding: 80px 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background: #ff9800;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #e68900;
+        }
+        .features, .pricing, .signup {
+            background: white;
+            padding: 50px 20px;
+            border-radius: 12px;
+            margin-top: 30px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .plan {
+            border: 1px solid #ddd;
+            padding: 25px;
+            width: 30%;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        .plan:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 25px;
+            background: #222;
+            color: white;
+        }
+        .signup-form input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .signup-form button {
+            padding: 12px 20px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .signup-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>PillPal</h1>
+        <p>Your AI-Powered Personal Health Companion</p>
+        <a href="#signup" class="button">Join the Waitlist</a>
+    </div>
+    
+    <div class="container features">
+        <h2>Why Choose PillPal?</h2>
+        <p>PillPal isn’t just a reminder app—it’s your AI-powered health partner, ensuring you never miss a dose and simplifying medication management like never before.</p>
+        <p><strong>✔ AI-driven reminders & smart scheduling</strong> – Stay on track with your meds effortlessly.</p>
+        <p><strong>✔ Automated prescription refills</strong> – No more last-minute pharmacy runs.</p>
+        <p><strong>✔ Personalized health insights & alerts</strong> – Get tailored reports on your medication adherence.</p>
+        <p><strong>✔ Secure, private & effortless management</strong> – Your data is encrypted, and your health is prioritized.</p>
+    </div>
+    
+    <div class="container pricing">
+        <h2>Plans & Pricing</h2>
+        <div class="plan">
+            <h3>Basic</h3>
+            <p>✔ Essential AI reminders</p>
+            <p>✔ Up to 5 medications</p>
+            <p><strong>Free</strong></p>
+        </div>
+        <div class="plan">
+            <h3>Pro</h3>
+            <p>✔ Unlimited medications</p>
+            <p>✔ Smart AI alerts & early refill notifications</p>
+            <p>✔ AI-driven dosage optimization</p>
+            <p><strong>$4.99/month</strong></p>
+        </div>
+        <div class="plan">
+            <h3>Family</h3>
+            <p>✔ Manage multiple users</p>
+            <p>✔ Priority AI support & shared reminders</p>
+            <p>✔ Auto-refill & prescription tracking</p>
+            <p><strong>$9.99/month</strong></p>
+        </div>
+    </div>
+    
+    <div class="container signup" id="signup">
+        <h2>Join the Future of Medication Management</h2>
+        <p>Say goodbye to missed doses and last-minute refills. With PillPal, AI handles your medications so you don’t have to.</p>
+        <form class="signup-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Join the Waitlist</button>
+        </form>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 PillPal. All rights reserved.</p>
+    </div>
+</body>
+</html>
